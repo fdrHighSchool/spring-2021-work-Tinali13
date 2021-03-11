@@ -44,8 +44,14 @@ public class SuperArray{// CONSTRUCTORS
     this.array=tarray;
   }
 
-    public String toString(){// strings the array
-    System.out.println(Arrays.toString(this.array));
-    return Arrays.toString(this.array);
+  public String toString(){// strings the array
+      System.out.println(Arrays.toString(this.array));
+      return Arrays.toString(this.array);
+  }
+    public int gint(int i){
+    return array[i];
+  }
+  public int glength(){
+    return array.length;
   }
 }
